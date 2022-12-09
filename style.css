@@ -2,9 +2,6 @@
     background-color: #2F80ED;
     width: 400px;
 }
-a {
-    color #FFFFFF
-}
 button {
     background-color: #333333;
     color: white;
@@ -19,4 +16,109 @@ p {
     width: 561px;
     height: 100px;
     color: #4F4F4F;
+}
+nav {
+    /* Rectangle 1 */
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: #2F80ED;
+}
+a {
+    text-decoration:none;
+    color: #FFFFFF;
+}
+li {
+    display: block;
+}
+
+.analytics {
+    position: absolute;
+    height: 36px;
+    width: 208px;
+    left: 98px;
+    top: 64px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.dashboard {
+    position: absolute;    
+    width: 156px;
+    height: 16px;
+    left: 101px;
+    top: 257px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.settings {
+    position: absolute;
+    width: 156px;
+    height: 16px;
+    left: 100px;
+    top: 323px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+.logout {
+    position: absolute;
+    width: 156px;
+    height: 16px;
+    left: 101px;
+    top: 845px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.imganalytics {
+    position: absolute;
+    height: 20.55px;
+    width: 31.67px;
+    left: 3.17px;
+    top: 8.72px;
+    border-radius: 0px;
+
+
+}
+.imgdashboard {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    top: 3px;
+    border-radius: 0px;
+}
+.imgsettings {
+    position: absolute;
+    left: 11.11%;
+    right: 11.11%;
+    top: 10%;
+    bottom: 10%;
+}
+.imglogout {
+    position: absolute;
+    left: 1%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+
 }
